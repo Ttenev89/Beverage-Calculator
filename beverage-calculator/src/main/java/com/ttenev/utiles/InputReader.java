@@ -15,7 +15,7 @@ public class InputReader {
     while (hasError) {
       hasError = false;
       try {
-        for (int i = 0; i <= 5; i++) {
+        for (int i = 0; i < 5; i++) {
           input[i] = Long.parseLong(scanner.next());
 
           if (i == 0) {
